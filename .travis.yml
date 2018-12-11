@@ -6,4 +6,4 @@ addons:
       secure: 0034da15ecdc9f2bfb4cc032405663b1e3cb81fb
 script:
   # other script steps might be done before running the actual analysis
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
+  - sonar-scanner
