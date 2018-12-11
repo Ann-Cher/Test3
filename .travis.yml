@@ -3,7 +3,7 @@ addons:
   sonarcloud:
     organization: "ann-cher-github" # the key of the org you chose at step #3
     token:
-      secure: a8ba1c9cac00a340bdc7105c6b22977c950ce927
+      secure: 0034da15ecdc9f2bfb4cc032405663b1e3cb81fb
 script:
   # other script steps might be done before running the actual analysis
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
